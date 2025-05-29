@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Mergers {
+  width: 100%;
+  height: auto;
+}
+
+.Mergers-img {
+  height: 280px;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.Mergers-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Mergers-img h2 {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Mergerstext{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em ;    
+}
+.Mergerstext h4{
+    font-size: 1.8em;
+}
+
+.Mergerstext p{
+    font-size: 1.08em;
+    padding: 0.5em 0 1em 0;
+    line-height: 25px;
+    color: grey;
+    text-align: justify;
+}
+
+.Mergerstext li{
+     line-height: 40px;
+    font-size: 1em;
+    color: #000;
+    list-style-type: lower-roman;
+}

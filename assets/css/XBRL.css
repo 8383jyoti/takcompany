@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.XBRL {
+  width: 100%;
+  height: auto;
+}
+
+.XBRL-img {
+  height: 280px;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.XBRL-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.XBRL-img h2 {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.XBRLtext{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em ;
+}
+.XBRLtext h4{
+    font-size: 1.8em;
+}
+
+.XBRLtext p{
+    font-size: 1.08em;
+    padding: 0.5em 0 1em 0;
+    line-height: 25px;
+    color: grey;
+    text-align: justify;
+}
+
+.XBRLtext li{
+     line-height: 40px;
+    font-size: 1em;
+    color: #000;
+    list-style-type: lower-roman;
+}

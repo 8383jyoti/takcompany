@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.registration {
+    position: relative;
+  width: 100%;
+   height: 280px;
+}
+
+.registration-img {
+  height: 280px;
+  width: 100%;
+}
+
+.registration-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.registration-img h2 {
+   width: 100%;
+    height: 100%;
+    background-color: #00000082;
+     position: absolute;
+     padding: 3em 2em;
+  bottom: 0%;
+  left: 0%;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* cards */
+.regicard {
+  margin: 2em 0;
+  cursor: pointer;
+  width: 380px;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+    transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.regicard:hover {
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  transform: scale(1.05);
+}
+
+.regicards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

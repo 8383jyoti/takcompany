@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Import {
+  width: 100%;
+  height: auto;
+}
+
+.Import-img {
+  height: 280px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.Import-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Import-img h2 {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Importtext{
+    height: 180px;
+}
+
+.Importtext p{
+    text-align: center;
+    font-size: 1.1em;
+    color: grey;
+    padding: 2em;
+}

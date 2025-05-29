@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.gstmain {
+  width: 100%;
+  height: auto;
+}
+
+.gst-img {
+  height: 280px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.gst-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gst-img h2 {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.gsttext{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.gsttext h2{
+    font-size: 2em;
+}
+
+.gsttext p{
+    font-size: 1.08em;
+    padding: 0.5em 0 1em 0;
+    line-height: 25px;
+    color: grey;
+    text-align: justify;
+}
+
+.gsttext li{
+    line-height: 35px;
+    font-size: 1em;
+    color: #000;
+}
+
+.gsttext strong{
+    color: #000;
+}
+
+.gsttext h3{
+    color: blue;
+    font-size: 1.5em;
+}
