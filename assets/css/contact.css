@@ -1,0 +1,123 @@
+.contactcontainer {
+    width: 100%;
+    height: auto;
+    padding: 3em 4em;
+    padding-bottom: 4em;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactcontainer .ct-leftbox {
+    width: 50%;
+}
+
+.contactcontainer .ct-leftbox h3 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+    margin-bottom: 0.6em;
+}
+
+.contactcontainer .ct-leftbox p {
+    line-height: 24px;
+    width: 80%;
+}
+
+.contactcontainer .ct-leftbox h3 span {
+    font-weight: 600;
+    color: blue;
+}
+
+.contactcontainer .ct-leftbox form {
+    width: 100%;
+    padding: 0 1.5em;
+    margin-top: 2em;
+}
+
+.contactcontainer .ct-leftbox form div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.contactcontainer .ct-leftbox form div input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 400;
+}
+
+.contactcontainer .ct-leftbox form button {
+    padding: 0.7em 2.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1.5em;
+    font-size: 0.9rem;
+    background-color: rgba(157, 154, 154, 0.458);
+    color: #000;
+    border: none;
+   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: all 0.4s ease;
+    border-radius:2px ;
+}
+.contactcontainer .ct-leftbox form button:hover{
+    background-color: #01434B;
+    color: #fff;
+    
+}
+
+.contactcontainer .ct-rightbox {
+    width: 40%;
+}
+.contactcontainer .ct-rightbox h3{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+    margin-bottom: 0.6em;
+}
+.contactcontainer .ct-rightbox h3 span{
+    font-weight: 600;
+    color: blue;
+}
+.contactcontainer .ct-rightbox p{
+    color: #000000c8;
+    margin-bottom: 1em;
+}
+.contactcontainer .ct-rightbox h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000c8;
+    margin-bottom: 1em;
+}
+.contactcontainer .ct-rightbox strong{
+    line-height: 24px;
+}
+.contactcontainer .ct-rightbox h4{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    gap: 3px;
+}
+.contactcontainer .ct-rightbox a{
+    color:#000;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.contactcontainer .ct-rightbox a:hover{
+    color: #91C43C;
+}
