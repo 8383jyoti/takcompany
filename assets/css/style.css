@@ -45,7 +45,7 @@ header img {
   background-size: cover;
   height: auto;
 }
-.opennav{
+.opennav {
   display: none;
 }
 .card {
@@ -145,9 +145,9 @@ header img {
   display: flex;
   gap: 4em;
 }
- .closenav{
-    display: none;
-  }
+.closenav {
+  display: none;
+}
 
 .navbar > a {
   text-decoration: none;
@@ -378,10 +378,10 @@ swiper-slide img {
   margin-top: 2em;
 }
 
-.aboutright img{
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
+.aboutright img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* whome_main */
@@ -451,14 +451,19 @@ swiper-slide img {
   -o-transition: all 0.4s ease;
 }
 .QAtext {
+  padding: 0 2em;
   background-color: gray;
   overflow: hidden;
   height: 0;
-  transition: all 0.4s ease;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 .QAtext.showpara {
-  padding: 0.5em 1.5em 1em 1.5em;
-  height: 100px;
+  padding:2em 2em;
+  height: 100%;
   /* height: auto; */
 }
 
@@ -478,7 +483,7 @@ footer {
 }
 
 .footerinner {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -577,7 +582,7 @@ footer .part1inner {
   text-align: center;
 }
 
-.ourservices .ourservices-p{
+.ourservices .ourservices-p {
   font-size: 1.3em;
 }
 .ourservices h2 {
@@ -752,4 +757,52 @@ footer .part1inner {
   display: flex;
   top: 100%;
   height: 290px;
+}
+.formsubmited {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  gap: 1em;
+}
+.formsubmited h1 {
+  font-size: 3em;
+  color: #fff;
+}
+.formsubmited p {
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  line-height: 24px;
+}
+.formsubmited a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  height: 48px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  font-size: 1.2em;
+  transition: all 0.4s ease;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+.formsubmited a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.122);
 }
